@@ -511,11 +511,19 @@ button {
   margin-left: 80px;
 }
 
+.form-text{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+}
 
 .footer-form {
-  display: inline-block;
+  display: flex;
   width: 453px;
   height: 80px;
+  gap: 24px;
 }
 
 .input-button{
@@ -532,8 +540,13 @@ button {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  
+  font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
 }
 
 .footer-label{
@@ -548,7 +561,8 @@ margin-bottom: 16px;
 
 .footer-button {
   display: flex;
-   justify-content: right;
+   justify-content: center;
+   align-items: center;
   flex-direction: row;
   gap: 16px;
   border-radius: 4px;
@@ -556,12 +570,18 @@ margin-bottom: 16px;
   width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-}
-.social-icons {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
 }
 
 .footer-button-icon{
   fill: #fff;
+  margin-left: 16px; 
 }
 
 .footer-button:hover,
