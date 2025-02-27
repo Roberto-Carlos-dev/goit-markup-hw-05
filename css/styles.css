@@ -662,23 +662,19 @@ button {
 
   .close-button-icon:focus,
   .close-button-icon:hover{
-    fill: #ffffff
+    fill: #ffffff;
   }
 
    .modal-form-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  } 
+   }
 
-  .close-button-icon:focus,
-  .close-button-icon:hover{
-    fill: #ffffff
-  }
-
-  .close-button:hover,
-  .close-button:focus{
+.close-button:hover,
+.close-button:focus{
     border: none;
     fill: #404bbf;
     background-color: #404bbf;
+    
    }
 
   .modal-text{
@@ -707,6 +703,7 @@ margin-bottom: 4px;
 }
 .modal-form-input-cont {
   position: relative;
+  padding-bottom: 8px;
 }
 .modal-form-input {
   width: 100%;
