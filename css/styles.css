@@ -641,6 +641,8 @@ button {
     align-items: center; 
      justify-content: center;
     position: absolute;
+    width: 24px; 
+    height: 24px;
     right: 24px;
     top: 24px;
     padding: 0;
@@ -651,12 +653,14 @@ button {
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: transparent;
+    background-color: #e7e9fc;
   }
 
   .close-button:hover,
   .close-button:focus{
-    fill: #404bbf;
+    /* fill: #404bbf; */
+    background-color: #404bbf;
+    border: none;
   }
 
   .modal-text{
