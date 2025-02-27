@@ -608,8 +608,7 @@ button {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;  
-  transition-property: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .backdrop.is-open{
@@ -700,10 +699,19 @@ margin-bottom: 4px;
 }
 
 .modal-form-icon {
+  position: absolute;
   fill: transparent;
   top: 50%;
   left: 19px;
   stroke: #2e2f42;
   fill: #2e2f42;
+  transform: translateY(-50%);
 }
+
+.modal-form-input:focus + 
+.modal-form-icon:focus {
+  fill: #4d5ae5;
+  stroke: #4d5ae5;
+}
+
   /* end backdrop */
