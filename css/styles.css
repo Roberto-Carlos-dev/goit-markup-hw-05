@@ -675,10 +675,11 @@ button {
 
 .close-button:hover,
 .close-button:focus{
+   fill: #ffffff;
     border: none;
-    fill: #404bbf;
+    /* fill: #404bbf; */
     background-color: #404bbf;
-    
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
   .modal-text{
